@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');ˀ
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(240,75%,98%);
+}
+.dflex{
+    display: flex;
+
+}
+.align-c{
+    align-items: center;
+}
+.flex-prop{
+    flex: 1 0 auto;
+
+}
+.heading { 
+    color: #27272a;
+   
+    padding:2rem;
+
+}
+.list-non-bullets{
+    list-style: none;
+}
+.list-item{
+    display: inline-block;
+    padding: 0 1rem;
+}
+.nav{
+    margin-left: auto;
+}
+.link{
+    text-decoration: none;
+    color:#27272a;
+}
+.cursor:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.box{
+   
+    padding:3rem;
+}
+.main{
+    padding: 2rem;
+}
+.gap{
+    gap: 4rem;
+}
+.col-flex{
+    display: flex;
+    flex-direction: column;
+}
+.gap-1rem{
+    gap: 1rem;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.button-primary{
+    background-color: hsl(224,93%,58%);
+    color: hsl(240,75%,98%);
+    padding:4px .875rem;
+}
+.form-input{
+    padding:4px 1rem;
+    border-radius: 4px;
+    width: 25vw;
+    border:1px solid #27272a;
+}
+.heading-info{
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+}
+.para-info{
+    letter-spacing: 1.5px;;
+}
+.img{
+    width: 450px;
+}
+
+.align-s{
+    align-items: flex-start;
+}
+.justify-c{
+    justify-content: center;
+
+}
+.footer{
+    padding:2rem;
+    background-color: hsl(243,87%,12%);
+    color: hsl(240,75%,98%)
+}
+.logo{
+    width:3rem;
+    height:3rem;
+    
+}
